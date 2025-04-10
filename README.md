@@ -1,21 +1,24 @@
-# Hangman Game
+# Hangman Game 🕹💀
 
 A simple command-line Hangman game written in Python. Guess the hidden word one letter at a time before you run out of attempts!
 
 ## Features
 
-- Word randomly selected from a predefined list
-- ASCII art for hangman progression
-- Keeps track of guessed letters
-- Customizable word list
 
-## Requirements
+- ✅ Random word selection  
+- ✏ Tracks guessed letters  
+- ❌ Limited attempts with visual hangman progress  
+- 🧠 Great for improving vocabulary  
+- 🛠 Easily customizable word list
+
+
+## Requirements ⚙
 
 - Python 3.x
 
 No external libraries are needed.
 
-## How to Run
+## How to Run ▶
 
 1. Clone the repository or download the script:
 
@@ -28,7 +31,7 @@ Hangman.py
 ```
 python hangman.py
 ```
-##Gameplay
+##Gameplay 🎮
 
 You'll see blank spaces for the letters in the word.
 
@@ -38,7 +41,7 @@ Each incorrect guess brings the hangman closer to completion.
 
 Win by guessing all letters before the hangman is fully drawn.
 
-##Example
+##Example 🧾
 ```
 _ _ _ _ _
 Guess a letter: a
@@ -50,9 +53,13 @@ That letter doesn't appear in the word.
 
 ```
 
-##Customization
+##Customization 📝
 
 You can add more words to the word_list in the script to increase variety.
 ```
 words = ['apple','tiger','pizza','planet','window','rocket','garden','python','java','html']
 ```
+
+---
+
+Have fun & don't let the hangman hang! ☠
