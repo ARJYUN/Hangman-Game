@@ -17,6 +17,7 @@ while attempts > 0 and '_' in word_display:
         for index, letter in enumerate(chosen_word):
             if letter == guess:
                 word_display[index] = guess  # Reveal 
+                print("Good Guess !")
     else:
         print("That letter doesn't appear in the word.")
         attempts -= 1
